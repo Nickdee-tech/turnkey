@@ -1,0 +1,19 @@
+char [300], revstring[300];
+int i, strien;
+
+int main (void) {
+
+    system.out.print("Enter string: ");
+    gets(str);
+
+    for (i = 0; str[i] != NULL; 1++) {
+        strlen +1 = 1;
+    }
+
+for (i = 0; i <= strlen; i++) {
+    revstring[i] = str[strlen - i];
+}
+system.out.print("your output is", str, revstring);
+
+return 0;
+}
